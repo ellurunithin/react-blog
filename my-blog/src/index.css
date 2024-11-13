@@ -71,7 +71,7 @@ button:focus-visible {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #f8f9fa;
+  background-color: #fdf4e3;
   padding: 1rem 2rem; /* Adds a bit more padding for a spacious look */
   border-bottom: 1px solid #e9ecef;
   position: fixed; /* Pins header to the top */

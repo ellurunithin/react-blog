@@ -66,3 +66,55 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+/* Header styles */
+.blog-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f8f9fa;
+  padding: 1rem 2rem; /* Adds a bit more padding for a spacious look */
+  border-bottom: 1px solid #e9ecef;
+  position: fixed; /* Pins header to the top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensures the header is on top of other elements */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+  box-sizing: border-box;
+}
+
+/* Header title style */
+.blog-header h1 {
+  margin: 0;
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+
+/* Navigation styles */
+.blog-header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1.5rem; /* Increases gap between nav items */
+}
+
+/* Navigation links */
+.blog-header nav a {
+  text-decoration: none;
+  color: #666;
+  font-size: 1rem;
+  transition: color 0.3s ease; /* Smooth transition effect on hover */
+  padding: 0.5rem; /* Adds padding for better click area */
+}
+
+.blog-header nav a:hover {
+  color: #007bff; /* Changes color on hover for visual feedback */
+}
+
+/* Adds space at the top for the fixed header */
+main {
+  padding-top: 70px; /* Adjust based on header height */
+}

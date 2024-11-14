@@ -1,0 +1,36 @@
+.blogList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns layout */
+    gap: 2rem;
+    padding: 1rem;
+  }
+  
+  
+  
+  /* Styling for BlogPost */
+  .blogPost__title {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+  }
+  
+  .blogPost__meta {
+    display: flex;
+    gap: 1rem;
+    color: #666;
+    font-size: 0.9rem;
+  }
+  
+  .blogPost__content {
+    line-height: 1.6;
+    color: #333;
+    margin-top: 1rem;
+  }
+  
+ /* Responsive Design */
+@media (max-width: 1024px) {
+    .blogList {
+      grid-template-columns: 1fr; /* Single column on smaller screens */
+    }
+  }
+  

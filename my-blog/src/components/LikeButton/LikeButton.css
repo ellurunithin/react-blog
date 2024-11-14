@@ -1,0 +1,17 @@
+/* LikeButton.css */
+
+.like-button__icon {
+    cursor: pointer;
+    font-size: 24px;
+    margin-right: 8px;
+  }
+  
+  .like-button__count {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .liked {
+    color: red;
+  }
+  

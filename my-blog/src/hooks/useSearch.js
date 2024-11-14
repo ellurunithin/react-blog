@@ -1,4 +1,5 @@
 import { useState, useMemo, useCallback } from 'react';
+import { useEffect } from 'react';
 
 export function useSearch(items, searchFields = ['title', 'content']) {
   const [searchTerm, setSearchTerm] = useState('');

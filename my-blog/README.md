@@ -29,3 +29,25 @@ my-blog/
 
 ## What I Learned
 React components, vite Setup and Benefits and Version Control with Git
+
+## Components Structure
+BlogPost: Displays an individual blog post, showing the title, content, author, date, and read time.
+BlogList: Acts as a container for multiple blog posts, rendering a list of BlogPost components.
+Header: Contains the site navigation and title, serving as the main header for the website.
+
+## Styling Approach
+
+I chose CSS Modules to keep styles scoped locally to each component, avoiding class name collisions and making styles easier to manage. This approach ensures cleaner, more maintainable code in a component-based structure.
+
+## New Features
+BlogPost Component: Displays individual blog posts with title, content, author, date, and read time.
+
+BlogList Component: Contains multiple BlogPost components, rendering a list of blog posts dynamically.
+
+Responsive Design: Ensures the blog layout adjusts for smaller screen sizes.
+
+CSS Modules: Provides scoped styling to avoid class name conflicts, enhancing maintainability and readability.
+
+## Screenshots
+![Desktop view](image-1.png)
+![Mobile view](image-2.png)
